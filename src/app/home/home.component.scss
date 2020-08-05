@@ -28,8 +28,17 @@ h1 {
   font-size: 25px;
   color: #edf0f1;
 }
+.logoFull h1, a, img{
+  text-decoration: none;
+  display: inline-block;
+  align-items: center;
+  justify-content: space-between;
+}
 .logo {
   cursor: pointer;
+  height: 50px;
+  width: 50px;
+  align-self: center;
 
 }
 
@@ -43,6 +52,7 @@ h1 {
 }
 
 .nav_links li a {
+  text-decoration:none;
   transition: all 0.3s ease 0s;
 }
 
